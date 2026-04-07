@@ -33,6 +33,12 @@ int main() {
         }
     }
 }
+printf("\nEstudiante %d\n", i + 1);
+        printf("Promedio: %.2f\n", suma / 3);
+        printf("Mayor: %.2f\n", mayor);
+        printf("Menor: %.2f\n", menor);
+    }
 
+    
     
   
