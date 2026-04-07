@@ -39,6 +39,13 @@ printf("\nEstudiante %d\n", i + 1);
         printf("Menor: %.2f\n", menor);
     }
 
-    
+    for (j = 0; j < 3; j++) {
+
+        suma = 0;
+        mayor = notas[0][j];
+        menor = notas[0][j];
+        aprobados = 0;
+        reprobados = 0;
+
     
   
