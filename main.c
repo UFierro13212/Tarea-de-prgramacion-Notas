@@ -82,7 +82,14 @@ int main() {
                 reprobados = reprobados + 1;
             }
         }
+
+        printf("\nMateria %d\n", j + 1);
+        printf("Promedio: %.2f\n", suma / 5);
+        printf("Mayor: %.2f\n", mayor);
+        printf("Menor: %.2f\n", menor);
+        printf("Aprobados: %d\n", aprobados);
+        printf("Reprobados: %d\n", reprobados);
     }
+
+    return 0;
 }
-    
-  
